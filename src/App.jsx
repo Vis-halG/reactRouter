@@ -1,4 +1,4 @@
-import Apployout from "./ui/Apployout";
+import Apployout from "./ui/Applayout";
 import Home from "./ui/Home"
 import About from "./ui/About"
 import Movies from "./ui/Movies";

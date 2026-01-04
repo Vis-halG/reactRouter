@@ -2,7 +2,7 @@ import Header from './Header'
 import Footer  from './Footer'
 import { Outlet } from 'react-router-dom'       
 
-const Apployout = () => {
+const Applayout = () => {
   return (
     <>
     <Header/>
@@ -12,4 +12,4 @@ const Apployout = () => {
   )
 }
 
-export default Apployout
+export default Applayout

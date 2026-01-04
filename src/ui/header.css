@@ -4,3 +4,17 @@
     box-sizing: border-box;
 }
 
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10vw;
+}
+.navbar li{
+    list-style: none;
+}
