@@ -1,38 +1,13 @@
-import Apployout from "./ui/Applayout";
-import Home from "./ui/Home"
-import About from "./ui/About"
-import Movies from "./ui/Movies";
+import React from 'react'
+import Navbar from './components/Navbar.jsx'
+function App() {
+  return (
+    <div>
+      <Navbar />
 
-import { createBrowserRouter , RouterProvider} from "react-router-dom";
-
-
-
-const App = () => {
-  const router = createBrowserRouter ([
-
-     {
-path:"/",
-element: <Apployout/>,
-children: [
-{
-path:"/home",
-element: <Home/>
-    },
-       {
-path:"/about",
-element: <About/>
-    },
-     {
-path:"/movies",
-element: <Movies/>
-    },
-]
-    },
-    
-
-
-  ]);
-
-  return <RouterProvider router={router} />
+      
+    </div>
+  )
 }
-export default App;
+
+export default App
